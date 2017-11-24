@@ -1,0 +1,141 @@
+body
+{
+	text-align : center;
+	background-image : url("ims/imagee.jpg");
+	font-family : Arial;
+}
+
+h1
+{
+	text-align : center ;
+	padding-top : 50px;
+	color : #fff;
+	font-weight : Bold;
+
+
+;
+}
+
+p
+
+#contactinf
+{
+	text-align : center;
+	margin-top : 0px;
+	padding-top : 35px;
+	padding-bottom : 15px;
+
+}
+
+#page
+{
+
+	background :#939394;
+	margin: auto;
+	width : 700px;
+	border-radius : 50px;
+
+
+}
+
+#intro
+{
+	text-align : center;
+	font-size : 14px;
+}
+
+#btn
+{
+	padding-top : 15px;
+	text-align: center;
+}
+
+
+
+
+
+#btn form
+{
+	padding-top : 15px;
+}
+
+
+#triste
+{
+
+	border-radius: 10px;
+
+
+}
+
+#mignon
+{
+
+	height : 200px;
+	width : 400px;
+	border-radius: 10px;
+
+
+
+}
+
+#content
+{
+
+
+	border-radius: 10px;
+	margin-bottom: 100px;
+
+
+
+}
+
+.alerte
+{
+	text-align : center;
+	padding-top : 30px;
+	padding-bottom: 30px;
+	color : #fff;
+	font-size : 20px;
+	font-weight : Bold;
+
+}
+
+#playlist
+{
+	text-align : center;
+
+}
+
+.formu
+{
+	display : inline block ;
+	margin-left : 100px ;
+	margin-right : 100px;
+	margin-top: 10px;
+	margin-bottom : 10px;
+	padding-top : 15px;
+	padding-bottom : 15px;
+	border : solid 1.5px black;
+	border-radius : 10px;
+
+}
+
+#aj
+{
+	height: 40px;
+	width : 40px;
+}
+
+#save
+{
+	height: 40px;
+	width : 40px;
+
+}
+
+#poub
+{
+	height: 40px;
+	width : 40px;
+}

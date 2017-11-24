@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <title></title>
+  <meta content="Projet JavaScript : formulaire de présence et de choix de musique pour une soirée "/>
+  <!-- <link rel="stylesheet" type="text/css" href="../css/reset.css"/> -->
+  <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+  <script type="text/javascript" src="../js/script.js"> </script>
+</head>
+<body>
+
+   <div id="page">
+<!-- introduction au formulaire -->
+      <h1> Tout pour passer une bonne soirée !</h1>
+      <p id="intro"> Victus universis caro ferina est lactisque abundans copia qua sustentantur,
+      et herbae multiplices et siquae alites capi per aucupium possint, et plerosque
+      mos vidimus frumenti usum et vini penitus ignorantes.</p>
+
+
+<!-- nom et présence -->
+    <div id="contactinf">
+      <form method="post">
+        <label> Nom </label>
+      	<input type="textarea"/>
+      	<label> Prénom </label>
+      	<input type="textarea"/>
+      </form>
+    </div>
+
+    <div id="btn">
+      <form id="checkboxform" method="post">
+        <input id="checkbox" type="checkbox" name="present">
+        <label for="checkbox">Je serais présent(e) !</label>
+        <input type="image" src="../ims/button_envoyer.png"/>
+      </form>
+    </div>
+
+<!-- page confirmation d'abscence-->
+    <div id="notthere">
+      <p class="alerte"> Merci de nous avoir prévenu de ton absence <p>
+      <img id="triste" src="../ims/chat_mignon_triste.jpg" alt="chat mignon triste"/>
+    </div>
+
+
+<!-- proposition de créer une playlist-->
+    <div id="there">
+      <p id="q1"> Voulez vous entendre des musiques que vous aimez particulièrement durant la soirée ? </p>
+      <img src="../ims/button_creer-une-playlist.png" alt="creer une playlist"/>
+      <img src="../ims/button_no-thanks.png" alt="ne pas creer de playlist"/>
+    </div>
+
+
+<!-- présence sans création de playlist -->
+    <div id="nothanx">
+      <p class="alerte"> Merci d'être présent, oublies pas le sky energy drink ! <p>
+      <img id="mignon" src="../ims/chat_mignon.jpg" alt="chat mignon "/>
+    </div>
+
+
+<!-- création d'une playlist -->
+    <div id="playlist">
+      <form method="post">
+        <div class="formu">
+          <label> Artiste : </label>
+      	  <input type="textarea"/>
+      	</div>
+      	<div class="formu">
+      	  <label> Titre : </label>
+      	  <input type="textarea"/>
+      	</div>
+      	<div class="formu">
+          <label> </label>
+          Moment de la soirée :
+          <select name="moment">
+            <option value="apéro"> apéro </option>
+            <option value="repas"> repas </option>
+            <option value="dessert"> dessert </option>
+            <option value="après diner"> après diner </option>
+          </select>
+        </div>
+        <div class="formu">
+          <label> Heure de passage</label>
+          <input id="time" type="time"/>
+        </div>
+        <div class="formu">
+          <input id="aj" type="image" src="../ims/btn_ajouter.png"/>
+          <input id="poub" type="image" src="../ims/btn_poubelle.jpg"/>
+          <input id="save" type="image" src="../ims/Save-icon.png"/>
+        </div>
+        <input type="image" src="../ims/button_envoyer.png"/>
+      </form>
+    </div>
+
+
+<!-- page de remerciement -->
+    <div id="thanx">
+      <p class="alerte"> Merci d'avoir rempli le formulaire ! A bientot  <p>
+      <img id="content" src="../ims/chat_mignon_content.jpg" a  lt="chat mignon content"/>
+    </div>
+
+   </div>
+  </body>
+</html>
