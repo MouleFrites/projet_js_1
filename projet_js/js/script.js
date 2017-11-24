@@ -12,3 +12,4 @@ var page5 = document.getElementById('playlist').style.visibility='hidden';
 var page6 = document.getElementById('thanx').style.visibility='hidden';
 
 if var present
+je suis dans le js
