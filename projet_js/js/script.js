@@ -1,12 +1,9 @@
-function hide() {
+setTimeout(function hide() {
   var presence = 0;
   var page2 = document.getElementById('notthere').style.display ='none';
   var page4 = document.getElementById('nothanx').style.display ='none';
 }, 1000);
 
-
-
-setTimeout(function hide(), 1);
 
 function test(){
   presence = 1;
@@ -27,10 +24,6 @@ function test4(){
 
   var page4 ='block';
 };
-test4();
-
-
-
 
 /* var page1 = document.getElementById('contactinf').style.visibility='visible';
 var page2 = document.getElementById('notthere').style.visibility='hidden';
