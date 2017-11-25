@@ -1,9 +1,8 @@
-function hide() {
+setTimeout(function hide() {
   var presence = 0;
   var page2 = document.getElementById('notthere').style.display ='none';
-}
+}, 1);
 
-setTimeout(function hide(), 1);
 
 function test(){
   presence = 1;
