@@ -1,9 +1,8 @@
-var presence;
-presence = 0;
+var presence = 0;
 
 window.setInterval(function() {
 console.log (presence);
-}, 1000);
+}, 1000); //wtf c'est quoi ce 1000
 
 function test(){
   presence = 1;
@@ -14,6 +13,11 @@ function test2(){
     if (presence == 0)
       alert("ntm pd")
     };
+
+
+
+
+
 /*var page1 = document.getElementById('contactinf').style.visibility='visible';
 var page2 = document.getElementById('notthere').style.visibility='hidden';
 var page3 = document.getElementById('there').style.visibility='hidden';
