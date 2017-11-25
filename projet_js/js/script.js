@@ -1,9 +1,5 @@
 var presence = 0;
 
-window.setInterval(function() {
-console.log (presence);
-}, 1000); //wtf c'est quoi ce 1000
-
 function test(){
   presence = 1;
   };
