@@ -1,7 +1,7 @@
 setTimeout(function() {
   var presence = 0;
   var page2 = document.getElementById('notthere').style.display ='none';
-}, 1000);
+}, 1);
 
 
 function test(){
