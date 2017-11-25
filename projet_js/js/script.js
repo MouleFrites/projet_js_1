@@ -1,7 +1,16 @@
 setTimeout(function hide() {
   var presence = 0;
   var page2 = document.getElementById('notthere').style.display ='none';
+<<<<<<< HEAD
 }, 1);
+=======
+<<<<<<< HEAD
+  var page4 = document.getElementById('nothanx').style.display ='none';
+}, 1000);
+=======
+}
+>>>>>>> a99143cae40830b73f2f73b7c21cc6d033dc5879
+>>>>>>> 2fa855437fbecb5aa2e2b9c8cfaf2e4f806863ba
 
 
 function test(){
@@ -21,9 +30,16 @@ function test3(){
 
 function test4(){
 
+<<<<<<< HEAD
+  var page4 ='block';
+
+=======
   var page2 =document.getElementById('notthere').style.display ='block';
+>>>>>>> a99143cae40830b73f2f73b7c21cc6d033dc5879
 };
 test4();
+
+
 
 
 /* var page1 = document.getElementById('contactinf').style.visibility='visible';
