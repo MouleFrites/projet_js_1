@@ -1,6 +1,7 @@
 setTimeout(function() {
   var presence = 0;
   var page2 = document.getElementById('notthere').style.display ='none';
+  var page4 = document.getElementById('nothanx').style.display ='none';
 }, 1000);
 
 
@@ -21,9 +22,11 @@ function test3(){
 
 function test4(){
 
-  var page2 ='block';
+  var page4 ='block';
 
 };
+
+
 
 
 
