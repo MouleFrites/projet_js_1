@@ -2,7 +2,7 @@ setTimeout(function hide() {
   var presence = 0;
   var page2 = document.getElementById('notthere').style.display ='none';
   var page4 = document.getElementById('nothanx').style.display ='none';
-}, 1000);
+}, 1);
 
 
 function test(){
