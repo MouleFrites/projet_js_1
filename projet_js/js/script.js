@@ -17,9 +17,9 @@ function test3(){
 
 
 
-/*var page1 = document.getElementById('contactinf').style.visibility='visible';
+/* var page1 = document.getElementById('contactinf').style.visibility='visible';
 var page2 = document.getElementById('notthere').style.visibility='hidden';
 var page3 = document.getElementById('there').style.visibility='hidden';
 var page4 = document.getElementById('nothanx').style.visibility='hidden';
 var page5 = document.getElementById('playlist').style.visibility='hidden';
-var page6 = document.getElementById('thanx').style.visibility='hidden';
+var page6 = document.getElementById('thanx').style.visibility='hidden';*/
