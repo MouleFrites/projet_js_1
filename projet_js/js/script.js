@@ -1,12 +1,15 @@
 var presence = 0;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 window.setInterval(function() {
 console.log (presence);
 }, 1000); //wtf c'est quoi ce 1000
 
 >>>>>>> 20c42752b7dae218607da70dc3ebc5aaf65a707b
+=======
+>>>>>>> bcdb879ea324cfc0e4cf35caa614e331d83594f6
 function test(){
   presence = 1;
   };
