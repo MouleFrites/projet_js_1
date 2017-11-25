@@ -1,12 +1,10 @@
 function hide() {
   var presence = 0;
   var page2 = document.getElementById('notthere').style.display ='none';
-<<<<<<< HEAD
   var page4 = document.getElementById('nothanx').style.display ='none';
 }, 1000);
-=======
-}
->>>>>>> a99143cae40830b73f2f73b7c21cc6d033dc5879
+
+
 
 setTimeout(function hide(), 1);
 
@@ -27,12 +25,7 @@ function test3(){
 
 function test4(){
 
-<<<<<<< HEAD
   var page4 ='block';
-
-=======
-  var page2 =document.getElementById('notthere').style.display ='block';
->>>>>>> a99143cae40830b73f2f73b7c21cc6d033dc5879
 };
 test4();
 
