@@ -1,5 +1,8 @@
-var presence = 0;
-var page2 = document.getElementById('notthere').style.display ='none';
+setTimeout(function() {
+  var presence = 0;
+  var page2 = document.getElementById('notthere').style.display ='none';
+}, 1000);
+
 
 function test(){
   presence = 1;
