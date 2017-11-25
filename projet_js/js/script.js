@@ -1,4 +1,5 @@
 var presence = 0;
+var page2 = document.getElementById('notthere').style.display ='none';
 
 function test(){
   presence = 1;
@@ -17,7 +18,8 @@ function test3(){
 
 function test3(){
 
-  alert("bitch plz")
+  var page2 ='block';
+
 };
 
 
