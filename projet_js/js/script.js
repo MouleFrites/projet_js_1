@@ -16,7 +16,7 @@ function test3(){
   alert("bitch plz")
 };
 
-function test3(){
+function test4(){
 
   var page2 ='block';
 
