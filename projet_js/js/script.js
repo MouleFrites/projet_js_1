@@ -9,7 +9,10 @@ function test2(){
     if (presence == 0)
       alert("ntm pd")
     };
+function test3(){
 
+  alert("bitch plz")
+}
 
 
 
