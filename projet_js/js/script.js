@@ -18,7 +18,7 @@ function test3(){
 function test3(){
 
   alert("bitch plz")
-}
+};
 
 
 
