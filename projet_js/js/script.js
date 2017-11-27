@@ -11,7 +11,7 @@ function testfinal(){
     $('#playlist').hide();
     $('#thanx').hide();
   } else if ( page == 1 ){
-    $('#contactinf').show();
+    $('#contactinf').hide();
     $('#notthere').hide();
     $('#there').show();
     $('#nothanx').hide();
@@ -19,12 +19,36 @@ function testfinal(){
     $('#thanx').hide();
 
   } else if ( page == 2 ){
-    $('#contactinf').show();
-    $('#notthere').hide();
+    $('#contactinf').hide();
+    $('#notthere').show();
     $('#there').hide();
     $('#nothanx').hide();
     $('#playlist').hide();
     $('#thanx').hide();
+
+  } else if ( page == 3 ){
+    $('#contactinf').hide();
+    $('#notthere').hide();
+    $('#there').hide();
+    $('#nothanx').hide();
+    $('#playlist').show();
+    $('#thanx').hide();
+
+  } else if ( page == 4 ){
+    $('#contactinf').hide();
+    $('#notthere').hide();
+    $('#there').hide();
+    $('#nothanx').show();
+    $('#playlist').hide();
+    $('#thanx').hide();
+
+  } else if ( page == 5 ){
+    $('#contactinf').hide();
+    $('#notthere').hide();
+    $('#there').hide();
+    $('#nothanx').hide();
+    $('#playlist').hide();
+    $('#thanx').show();
   };
 };
 
@@ -42,14 +66,23 @@ function button2(){
     return false;
     };
 
-function test3(){
-
-  alert("bitch plz")
+function button3(){
+  page = 3;
+  testfinal();
+  return false;
 };
 
-function test4(){
-    page4 = 'block';
+function button4(){
+  page = 4;
+  testfinal();
+  return false;
 };
+
+function button5() {
+  page = 5;
+  testfinal();
+  return false;
+}
 
 /*window.setInterval(function() {
 console.log (presence);
