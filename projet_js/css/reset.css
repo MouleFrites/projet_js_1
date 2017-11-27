@@ -27,8 +27,8 @@ th,
 label,
 textarea,
 caption,
-details,
-figure,
+details, 
+figure, 
 hgroup {
 	font-size: 1em; /* equiv 14px */
 	line-height: 1.5;
@@ -106,7 +106,7 @@ ul,
 ol {
 	padding-left: 2em;
 }
-code,
+code, 
 pre,
 samp {
 	white-space: pre-wrap;
@@ -185,3 +185,18 @@ body > script {display: none !important;}
 .skip-links a:focus {
 	position: static;
 }
+
+#containermenu div
+{
+	display : inline-block;
+	width : 100px;
+}
+
+#containermain div 
+{
+	display : block ;
+	height : 100px;
+	background-color: grey ; 
+
+}
+
