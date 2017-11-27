@@ -1,5 +1,6 @@
 
   var presence = 0;
+<<<<<<< HEAD
   var page = 0;
 
 function testfinal(){
@@ -14,6 +15,11 @@ function testfinal(){
     page2 = 'block'
   }
 }
+=======
+  var page2 = document.getElementById('notthere').style.display ='none';
+  var page4 = document.getElementById('nothanx').style.display ='none';
+}, 1);
+>>>>>>> 54e47532b38db48ad943898390e0cc68d93079fe
 
 
 function button1(){
