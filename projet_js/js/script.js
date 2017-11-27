@@ -13,7 +13,7 @@ function testfinal(){
   } else if ( page == 1 ){
     $('#contactinf').show();
     $('#notthere').hide();
-    $('#there').hide();
+    $('#there').show();
     $('#nothanx').hide();
     $('#playlist').hide();
     $('#thanx').hide();
