@@ -4,6 +4,7 @@
 
 function testfinal(){
   if (page == 0) {
+    $('#btn').show();
     $('#contactinf').show();
     $('#notthere').hide();
     $('#there').hide();
@@ -11,6 +12,7 @@ function testfinal(){
     $('#playlist').hide();
     $('#thanx').hide();
   } else if ( page == 1 ){
+    $('#btn').hide();
     $('#contactinf').hide();
     $('#notthere').hide();
     $('#there').show();
@@ -19,6 +21,7 @@ function testfinal(){
     $('#thanx').hide();
 
   } else if ( page == 2 ){
+    $('#btn').hide();
     $('#contactinf').hide();
     $('#notthere').show();
     $('#there').hide();
@@ -27,6 +30,7 @@ function testfinal(){
     $('#thanx').hide();
 
   } else if ( page == 3 ){
+    $('#btn').hide();
     $('#contactinf').hide();
     $('#notthere').hide();
     $('#there').hide();
@@ -35,6 +39,7 @@ function testfinal(){
     $('#thanx').hide();
 
   } else if ( page == 4 ){
+    $('#btn').hide();
     $('#contactinf').hide();
     $('#notthere').hide();
     $('#there').hide();
@@ -43,6 +48,7 @@ function testfinal(){
     $('#thanx').hide();
 
   } else if ( page == 5 ){
+    $('#btn').hide();
     $('#contactinf').hide();
     $('#notthere').hide();
     $('#there').hide();
