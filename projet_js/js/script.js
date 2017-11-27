@@ -1,26 +1,32 @@
 
   var presence = 0;
-<<<<<<< HEAD
   var page = 0;
 
 function testfinal(){
   if (page == 0) {
-    var page1 = document.getElementById('contactinf').style.display='block';
-    var page2 = document.getElementById('notthere').style.display ='none';
-    var page3 = document.getElementById('there').style.display='none';
-    var page4 = document.getElementById('nothanx').style.display ='none';
-    var page5 = document.getElementById('playlist').style.display='none';
-    var page6 = document.getElementById('thanx').style.display='none';
+    $('#contactinf').show();
+    $('#notthere').hide();
+    $('#there').hide();
+    $('#nothanx').hide();
+    $('#playlist').hide();
+    $('#thanx').hide();
   } else if ( page == 1 ){
-    page2 = 'block'
-  }
-}
-=======
-  var page2 = document.getElementById('notthere').style.display ='none';
-  var page4 = document.getElementById('nothanx').style.display ='none';
-}, 1);
->>>>>>> 54e47532b38db48ad943898390e0cc68d93079fe
+    $('#contactinf').show();
+    $('#notthere').hide();
+    $('#there').hide();
+    $('#nothanx').hide();
+    $('#playlist').hide();
+    $('#thanx').hide();
 
+  } else if ( page == 2 ){
+    $('#contactinf').show();
+    $('#notthere').hide();
+    $('#there').hide();
+    $('#nothanx').hide();
+    $('#playlist').hide();
+    $('#thanx').hide();
+  };
+};
 
 function button1(){
   presence = 1;
@@ -29,7 +35,10 @@ function button2(){
     if (presence == 1) {
       page = 1;
       testfinal();
-    };
+    } else {
+      page = 2;
+      testfinal();
+    }
     };
 
 function test3(){
