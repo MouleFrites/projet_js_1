@@ -39,6 +39,7 @@ function button2(){
       page = 2;
       testfinal();
     }
+    return false;
     };
 
 function test3(){
