@@ -11,6 +11,7 @@ function testfinal(){
     $('#nothanx').hide();
     $('#playlist').hide();
     $('#thanx').hide();
+    $('#buttonfinalenvoi').hide();
   } else if ( page == 1 ){
     $('#btn').hide();
     $('#contactinf').hide();
@@ -19,6 +20,7 @@ function testfinal(){
     $('#nothanx').hide();
     $('#playlist').hide();
     $('#thanx').hide();
+    $('#buttonfinalenvoi').hide();
 
   } else if ( page == 2 ){
     $('#btn').hide();
@@ -28,6 +30,7 @@ function testfinal(){
     $('#nothanx').hide();
     $('#playlist').hide();
     $('#thanx').hide();
+    $('#buttonfinalenvoi').hide();
 
   } else if ( page == 3 ){
     $('#btn').hide();
@@ -37,6 +40,7 @@ function testfinal(){
     $('#nothanx').hide();
     $('#playlist').show();
     $('#thanx').hide();
+    $('#buttonfinalenvoi').show();
 
   } else if ( page == 4 ){
     $('#btn').hide();
@@ -46,6 +50,7 @@ function testfinal(){
     $('#nothanx').show();
     $('#playlist').hide();
     $('#thanx').hide();
+    $('#buttonfinalenvoi').hide();
 
   } else if ( page == 5 ){
     $('#btn').hide();
@@ -55,6 +60,7 @@ function testfinal(){
     $('#nothanx').hide();
     $('#playlist').hide();
     $('#thanx').show();
+    $('#buttonfinalenvoi').hide();
   };
 };
 
@@ -87,6 +93,12 @@ function button4(){
 function button5() {
   page = 5;
   testfinal();
+  return false;
+}
+
+function button6() {
+
+  $('#buttonfinalenvoi').before('<div id="playlist"><form><div class="formu"><label> Artiste : </label><input type="textarea"/></div><div class="formu"><label> Titre : </label><input type="textarea"/></div><div class="formu"><label> </label>Moment de la soirée :<select name="moment"><option value="apéro"> apéro </option><option value="repas"> repas </option><option value="dessert"> dessert </option><option value="après diner"> après diner </option></select></div><div class="formu"><label> Heure de passage</label><input id="time" type="time"/></div><div class="formu"><input id="aj" type="image" src="../ims/btn_ajouter.png" onClick="return button6()"/><input id="poub" type="image" src="../ims/btn_poubelle.jpg"/><input id="save" type="image" src="../ims/Save-icon.png"/></div></form></div>');
   return false;
 }
 
