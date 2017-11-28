@@ -98,7 +98,16 @@ function button5() {
 
 function button6() {
 
-  $('#buttonfinalenvoi').before('<div id="playlist"><form><div class="formu"><label> Artiste : </label><input type="textarea"/></div><div class="formu"><label> Titre : </label><input type="textarea"/></div><div class="formu"><label> </label>Moment de la soirée :<select name="moment"><option value="apéro"> apéro </option><option value="repas"> repas </option><option value="dessert"> dessert </option><option value="après diner"> après diner </option></select></div><div class="formu"><label> Heure de passage</label><input id="time" type="time"/></div><div class="formu"><input id="aj" type="image" src="../ims/btn_ajouter.png" onClick="return button6()"/><input id="poub" type="image" src="../ims/btn_poubelle.jpg"/><input id="save" type="image" src="../ims/Save-icon.png"/></div></form></div>');
+  $('#buttonfinalenvoi').before('<div id="playlist"><form><div class="formu"><label> Artiste : </label><input type="textarea"/></div><div class="formu"><label> Titre : </label><input type="textarea"/></div><div class="formu"><label> </label>Moment de la soirée :<select name="moment"><option value="apéro"> apéro </option><option value="repas"> repas </option><option value="dessert"> dessert </option><option value="après diner"> après diner </option></select></div><div class="formu"><label> Heure de passage</label><input id="time" type="time"/></div><div class="formu"><input id="aj" type="image" src="../ims/btn_ajouter.png" onClick="return button6()"/><input id="poub" type="image" src="../ims/btn_poubelle.jpg" onClick="return button7()"/><input id="save" type="image" src="../ims/Save-icon.png"/></div></form></div>');
+  return false;
+}
+function button7() {
+
+  $('#playlist').hide();
+  return false;
+}
+function button8() {
+
   return false;
 }
 
