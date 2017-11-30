@@ -9,7 +9,7 @@ function testfinal(){
     $('#notthere').hide();
     $('#there').hide();
     $('#nothanx').hide();
-    $('#playlist').hide();
+    $('.playlist').hide();
     $('#thanx').hide();
     $('#buttonfinalenvoi').hide();
   } else if ( page == 1 ){
@@ -18,7 +18,7 @@ function testfinal(){
     $('#notthere').hide();
     $('#there').show();
     $('#nothanx').hide();
-    $('#playlist').hide();
+    $('.playlist').hide();
     $('#thanx').hide();
     $('#buttonfinalenvoi').hide();
 
@@ -28,7 +28,7 @@ function testfinal(){
     $('#notthere').show();
     $('#there').hide();
     $('#nothanx').hide();
-    $('#playlist').hide();
+    $('.playlist').hide();
     $('#thanx').hide();
     $('#buttonfinalenvoi').hide();
 
@@ -38,7 +38,7 @@ function testfinal(){
     $('#notthere').hide();
     $('#there').hide();
     $('#nothanx').hide();
-    $('#playlist').show();
+    $('.playlist').show();
     $('#thanx').hide();
     $('#buttonfinalenvoi').show();
 
@@ -48,7 +48,7 @@ function testfinal(){
     $('#notthere').hide();
     $('#there').hide();
     $('#nothanx').show();
-    $('#playlist').hide();
+    $('.playlist').hide();
     $('#thanx').hide();
     $('#buttonfinalenvoi').hide();
 
@@ -58,7 +58,7 @@ function testfinal(){
     $('#notthere').hide();
     $('#there').hide();
     $('#nothanx').hide();
-    $('#playlist').hide();
+    $('.playlist').hide();
     $('#thanx').show();
     $('#buttonfinalenvoi').hide();
   };
@@ -98,12 +98,12 @@ function button5() {
 
 function button6() {
 
-  $('#buttonfinalenvoi').before('<div id="playlist"><form><div class="formu"><label> Artiste : </label><input type="textarea"/></div><div class="formu"><label> Titre : </label><input type="textarea"/></div><div class="formu"><label> </label>Moment de la soirée :<select name="moment"><option value="apéro"> apéro </option><option value="repas"> repas </option><option value="dessert"> dessert </option><option value="après diner"> après diner </option></select></div><div class="formu"><label> Heure de passage</label><input id="time" type="time"/></div><div class="formu"><input id="aj" type="image" src="../ims/btn_ajouter.png" onClick="return button6()"/><input id="poub" type="image" src="../ims/btn_poubelle.jpg" onClick="return button7()"/><input id="save" type="image" src="../ims/Save-icon.png"/></div></form></div>');
+  $('#buttonfinalenvoi').before('<div class="playlist"><form><div class="formu"><label> Artiste : </label><input type="textarea"/></div><div class="formu"><label> Titre : </label><input type="textarea"/></div><div class="formu"><label> </label>Moment de la soirée :<select name="moment"><option value="apéro"> apéro </option><option value="repas"> repas </option><option value="dessert"> dessert </option><option value="après diner"> après diner </option></select></div><div class="formu"><label> Heure de passage</label><input id="time" type="time"/></div><div class="formu"><input class="aj" type="image" src="../ims/btn_ajouter.png" onClick="return button6()"/><input class="poub" type="image" src="../ims/btn_poubelle.jpg" onClick="return button7(this)"/><input class="save" type="image" src="../ims/Save-icon.png"/></div></form></div>');
   return false;
 }
-function button7() {
+function button7(e) {
 
-  $('#playlist').hide();
+  $(e).parent().parent().hide();
   return false;
 }
 function button8() {

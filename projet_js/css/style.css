@@ -284,7 +284,7 @@ body > script {display: none !important;}
 	padding-bottom : 50px;
 }
 
-#playlist
+.playlist
 {
 	text-align : center;
 
@@ -304,20 +304,20 @@ body > script {display: none !important;}
 
 }
 
-#aj
+.aj
 {
 	height: 40px;
 	width : 40px;
 }
 
-#save
+.save
 {
 	height: 40px;
 	width : 40px;
 
 }
 
-#poub
+.poub
 {
 	height: 40px;
 	width : 40px;
