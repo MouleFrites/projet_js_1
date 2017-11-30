@@ -5,7 +5,8 @@
 
 body
 {
-	background-color: #E4E4E4;
+	background-image:url('../ims/texture2.png');
+	background-size: 100%;
 }
 
 h1
@@ -32,7 +33,7 @@ h1
 #page
 {
 
-	background :#939394;
+	background-color :rgba(0,0,0,0.5);
 	margin: auto;
 	margin-top:5%;
 	padding-bottom: 15px;
@@ -80,7 +81,8 @@ h1
 
 #playlistornot
 {
-	margin-left: 22%;	
+	margin-left: 22%;
+
 }
 
 
@@ -88,6 +90,8 @@ h1
 {
 	margin-left: 41%;
 }
+
+
 
 #triste
 {
@@ -116,7 +120,7 @@ h1
 
 
 	border-radius: 5px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	margin-left: 33%;
 
 
@@ -157,8 +161,9 @@ h1
 	margin-bottom : 10px;
 	padding-top : 15px;
 	padding-bottom : 15px;
-	border : solid 1.5px black;
+	border : solid 1.5px #E4E4E4;
 	border-radius : 10px;
+	color : #E4E4E4;
 
 }
 
