@@ -13,8 +13,8 @@ h1
 {
 	padding-top: 15px;
 	text-align : center ;
-	color : #E4E4E4;	
-	font-style: bold; 
+	color : #E4E4E4;
+	font-style: bold;
 
 
 
@@ -73,8 +73,8 @@ h1
 
 #q1
 {
-	text-align: center ; 
-	font-size: 18px; 
+	text-align: center ;
+	font-size: 18px;
 	color : #E4E4E4;
 }
 
@@ -109,7 +109,7 @@ h1
 	width : 400px;
 	border-radius: 5px;
 	margin-left: 22%;
-	
+
 
 
 
@@ -172,7 +172,12 @@ h1
 	height: 40px;
 	width : 40px;
 }
-
+.aj2
+{
+	margin-left: 325px;
+	height: 40px;
+	width : 40px;
+}
 .save
 {
 	height: 40px;
@@ -185,4 +190,3 @@ h1
 	height: 40px;
 	width : 40px;
 }
-
