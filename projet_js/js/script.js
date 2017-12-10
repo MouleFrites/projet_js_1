@@ -83,11 +83,11 @@ function button2(){
     }
     if (presence == 1 && validate == 1) {
       page = 1;
-      console.log(" " + nomform + " " + prenomform + " sera à la soirée")
+      console.log(nomform + " " + prenomform + "sera à la soirée")
       testfinal();
     } else if (presence == 0 && validate == 1) {
       page = 2;
-      console.log(" " + nomform + " " + prenomform + "ne sera pas à la soirée")
+      console.log(nomform + " " + prenomform + "ne sera pas à la soirée")
       testfinal();
     }
     return false;
@@ -127,6 +127,7 @@ function button6() {
         <label> </label>\
         Moment de la soirée :\
         <select name="moment" id="formmoment">\
+          <option value=""> ... </option>\
           <option value="apéro"> Apéro </option>\
           <option value="repas"> Repas </option>\
           <option value="dessert"> Dessert </option>\
